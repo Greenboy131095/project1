@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="caseguard-logo-gray.png" />
+    <None Remove="CaseGuard-logo.png" />
+    <None Remove="icon-AddProjectFill.png" />
+    <None Remove="next-button.png" />
+    <None Remove="previous-button.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="image\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="caseguard-logo-gray.png" />
+    <Resource Include="CaseGuard-logo.png" />
+    <Resource Include="icon-AddProjectFill.png" />
+    <Resource Include="next-button.png" />
+    <Resource Include="previous-button.png" />
+  </ItemGroup>
+
+</Project>
